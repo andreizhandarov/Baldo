@@ -5,6 +5,7 @@
     --Dark: #000000;
     --DarkBlue: #0A2640;
     --Gray: #777777;
+    --Green: #65E4A3;
 }
 /* 
     Manrope Bold 700
@@ -83,6 +84,7 @@ a{
     border-radius: 24px;
     background-color: var(--White);
     margin-right: 7px;
+    color: var(--DarkBlue);
 }
 
 .btn:hover{
@@ -97,14 +99,13 @@ a{
     border-bottom: 1px solid var(--DarkBlue);
 }
 
-.notes .blog{
+.notes .title__blog{
     display: flex;
     justify-content: center;
 }
 
-.blog {
+.title__blog {
     font-size: 20px;
-    font-weight: 400;
     color: var(--DarkBlue);
 }
 
@@ -179,6 +180,142 @@ a{
     font-size: 16px;
     color: var(--Dark);
 }
+
+.news {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+.title__news {
+    font-family: 'Manrope';
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    color: var(--Dark);
+    margin-top: 96px;
+}
+
+.bord__news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.cards__news {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 400px;
+}
+
+.cards_news__img {
+    width: 300px;
+    height: 200px;
+}
+
+.title_cards__news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cards_category__news{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.cards__news .title__category {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.bord__news .btn{
+    padding: 16px 56px;
+    width: 219px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 56px;
+    margin-top: 96px;
+}
+
+.bord__call_to_active {
+    position: relative;
+    height: 391px;
+    background-color: var(--DarkBlue);
+    border-radius: 12px;
+    margin-top: 124px;
+}
+
+.ellips{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    border-radius: 12px;
+}
+
+.block__active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 391px;
+    position: absolute;
+    z-index: 900;
+}
+
+.title__active {
+    font-family: 'Manrope';
+    font-size: 48px;
+    line-height: 1.5;
+    color: var(--White);
+    text-align: center;
+    width: 715px;
+}
+
+.block_input__active {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.input__email {
+    background-color: var(--White);
+    border: 2px solid var(--White);
+    border-radius: 240px;
+    width: 370px;
+    font-size: 20px;
+    color: var(--Dark);
+    padding: 12px 32px;
+
+}
+
+.call_to_active .btn {
+    padding: 16px 56px;
+    background: var(--Green);
+    border: 2px solid var(--Green);
+    border-radius: 56px;
+    width: 210px;
+    height: 60px;
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--DarkBlue);
+}
+
+
+
+
+
 
 
 
