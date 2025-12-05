@@ -195,7 +195,7 @@ a{
     font-size: 48px;
     display: flex;
     align-items: center;
-    color: var(--Dark);
+    color: var(--DarkBlue);
     margin-top: 96px;
 }
 
@@ -238,7 +238,9 @@ a{
     line-height: 1.6;
 }
 
-.bord__news .btn{
+.news .btn{
+    margin-left: auto;
+    margin-right: auto;
     padding: 16px 56px;
     width: 219px;
     height: 60px;
@@ -311,6 +313,64 @@ a{
     font-size: 20px;
     color: var(--DarkBlue);
 }
+
+.call_to_active .btn:hover{
+    background-color: var(--DarkBlue);
+    color: var(--Green);
+}
+
+.footer{
+    display: flex;
+    gap: 180px;
+    margin-top: 184px;
+}
+
+
+.footer__information {
+    max-width: 300px;
+}
+
+.footer .logo__link {
+    margin-bottom: 40px;
+}
+
+.footer__title {
+    margin-bottom: 64px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--Gray);
+}
+
+.footer_other__title {
+    margin-bottom: 117px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: var(--Gray);
+}
+
+.footer__nav {
+    display: flex;
+    gap: 100px;
+}
+
+.footer_nav__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_nav__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--Dark);
+    margin-bottom: 65px;
+}
+
+.footer_nav__link {
+    font-size: 20px;
+    color: var(--Gray);
+    margin-bottom: 32px;
+}
+
 
 
 
