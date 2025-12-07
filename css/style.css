@@ -92,6 +92,10 @@ a{
     color: var(--White);
 }
 
+.burger-menu {
+    display: none;
+}
+
 .notes {
     display: flex;
     flex-direction: column;
@@ -327,7 +331,7 @@ a{
 
 
 .footer__information {
-    max-width: 300px;
+    width: 300px;
 }
 
 .footer .logo__link {
@@ -371,6 +375,129 @@ a{
     margin-bottom: 32px;
 }
 
+@media (max-width: 1050px){
+    .notes{
+        align-items: center;
+        justify-content: center;
+    }
+    .card__notes{
+        flex-direction: column;
+    }
+    .card__category{
+        width: 580px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 960px){
+    .footer{
+        flex-direction: column-reverse;
+        gap: 30px;
+        margin-top: 100px;
+    }
+    .footer__nav{
+        justify-content: center;
+    }
+    .footer_nav__title {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 700px){
+    .title__active{
+        font-size: 40px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 635px){
+    .header{
+        position: relative;
+    }
+
+    .burger-menu {
+        display: block;
+        background-color: transparent;
+        border: none;
+
+        position: absolute;
+        top: 15px;
+        right: 145px;
+        
+    }
+
+    .burger-menu__icon {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+        object-position: center;
+    }
+
+    .card_notes__img{
+        width: 400px;
+        height: 250px;
+    }
+    .card__category {
+        width: 400px;
+    }
+    .notes__name {
+        font-size: 40px;
+    }
+    .title__category{
+        font-size: 28px;
+    }
+    .title__news{
+        font-size: 40px;
+    }
+    .block_input__active {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav__link{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .title__active {
+        font-size: 25px;
+        width: 300px;
+    }
+    .footer__nav{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 410px){
+    .card__category {
+        width: 300px;
+    }
+    .notes__name {
+        font-size: 35px;
+    }
+    .card__notes{
+        gap: 25px;;
+    }
+    .card_notes__img{
+        width: 300px;
+        height: 200px;
+    }
+    .title__category{
+        font-size: 20px;
+    }
+    .block_autor_category__img {
+        margin-top: 55px;
+    }
+    .input__email {
+        width: 300px;
+    }
+    .call_to_active .btn {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+    }
+}
 
 
 
